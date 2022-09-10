@@ -1,0 +1,257 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+* ::-moz-selection {
+  background: #ADADAD;
+  color: #fff;
+}
+* ::selection {
+  background: #ADADAD;
+  color: #fff;
+}
+
+body {
+  background-color: #131324;
+}
+
+.container {
+  transform-origin: top left;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.tileTable tr {
+  height: 642px;
+}
+.tileTable tr td {
+  min-width: 1286px;
+}
+
+#chrList {
+  position: initial;
+}
+
+.characterWrap {
+  transform: translate(-50%, 0);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.characterWrap .character {
+  transition: 0.2s;
+  transform-origin: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.characterWrap .character:hover {
+  transform: scale(1.1);
+}
+.characterWrap .name {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.characterWrap img {
+  aspect-ratio: 1/1;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.character.main {
+  width: 100px;
+  height: 100px;
+}
+.character.main img {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.character.ur {
+  width: 75px;
+  height: 75px;
+}
+.character.ur img {
+  border: 5px solid rgba(255, 170, 170, 0.5);
+}
+
+.character.ssr {
+  width: 60px;
+  height: 60px;
+}
+.character.ssr img {
+  border: 5px solid rgba(247, 213, 111, 0.5);
+}
+
+.character.sr {
+  width: 55px;
+  height: 55px;
+}
+.character.sr img {
+  border: 5px solid rgba(162, 99, 255, 0.5);
+}
+
+.character.r {
+  width: 45px;
+  height: 45px;
+}
+.character.r img {
+  border: 5px solid rgba(133, 171, 255, 0.5);
+}
+
+.mapPos {
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+}
+.mapPos:hover {
+  background-color: rgba(51, 204, 204, 0.6);
+}
+
+.scaleBtn {
+  width: 50px;
+  height: 50px;
+  right: 50px;
+  top: 50px;
+  position: fixed;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(204, 204, 204, 0.5);
+  border-radius: 20px;
+  border: 0px solid #000;
+  transition: 0.3s;
+}
+.scaleBtn:hover {
+  color: #ccc;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.scaleUp {
+  top: 50px;
+}
+
+.scaleDown {
+  top: 105px;
+}
+
+.scaleBtn.disable {
+  opacity: 0.9;
+  background-color: #111111;
+}
+.scaleBtn.disable:hover {
+  color: #000;
+  background-color: #111111;
+}
+
+.mapPopupPanel {
+  border-radius: 15px;
+  display: none;
+  z-index: 2;
+  padding: 20px;
+  width: 50%;
+  min-width: 300px;
+  max-width: 700px;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: rgba(34, 34, 34, 0.8);
+  color: #ddd;
+}
+.mapPopupPanel .mapPopupCloseBtn {
+  border-radius: 20%;
+  border: none;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  right: 10px;
+  top: 10px;
+  color: #bbb;
+}
+.mapPopupPanel .mapPopupCloseBtn:hover {
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.mapPopupPanel .topic {
+  text-align: center;
+  font-size: 30px;
+}
+.mapPopupPanel .story {
+  font-size: 24px;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+.mapPopupPanel .link {
+  display: none;
+  color: #bbb;
+  padding: 2px;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.mapPopupPanel .link:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mapPopupPanel.fromTop {
+  top: 5px;
+  transform: translate(-50%, 0%);
+}
+
+.story.storyScroll {
+  overflow-y: scroll;
+}
+.story.storyScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.t00 {
+  background-image: url("https://i.imgur.com/IvElXgS.jpg");
+}
+
+.t01 {
+  background-image: url("https://i.imgur.com/eVjADoe.jpg");
+}
+
+.t10 {
+  background-image: url("https://i.imgur.com/OVhDa6c.jpg");
+}
+
+.t11 {
+  background-image: url("https://i.imgur.com/M8AGLBH.jpg");
+}
+
+.t20 {
+  background-image: url("https://i.imgur.com/o9eX2Sb.jpg");
+}
+
+.t21 {
+  background-image: url("https://i.imgur.com/PO47jNh.jpg");
+}
+
+.t30 {
+  background-image: url("https://i.imgur.com/d8IAKmd.jpg");
+}
+
+.t31 {
+  background-image: url("https://i.imgur.com/PbVUOxd.jpg");
+}
