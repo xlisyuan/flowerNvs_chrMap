@@ -176,7 +176,7 @@ var chrStory = {
     "文司宥": { pos: "輔助 前排", identity: "同文行會長/文家家主", story: "「　無道不生財　」 越陽文家家主，大景第一商會同文行會長，無需謊言也可將人玩弄於股掌之中，家資豐厚，入明雍教書只為樂趣。文家：景朝新興世家。經商起家，富可敵國，握有大量海外貿易資源。雖然族中無人入仕，但同文行遍布全國，在各個行業都與朝中有商業往來。景曆328年，同文行在與鄔蘭的戰事中資助有功，被封為皇商。", link: "https://www.flower-ariel.com/role_detail.html?id=1" },
     "月憐": { pos: "定位 前排", identity: "錦歌樓主", story: "出身玉胡的西域舞姬，現為錦歌樓樓主，以製香術聞名遐邇。", link: "https://www.flower-ariel.com/role_detail.html?id=9" },
     "陵": { pos: "單體 後排", identity: "暗襲者之首", story: "「　陵，即爾等葬身之墓　」 宣京知名的暗襲者，雖習慣於夜色中潛行，行事風格卻極盡張揚。", link: "https://www.flower-ariel.com/role_detail.html?id=8" },
-    "未央": { pos: "定位 前排", identity: "", story: "知書達禮，家教極好的大家閨秀。為人低調，精通美妝儀容術，似乎對宮廷禮儀很熟悉。", link: "https://www.flower-ariel.com/role_detail.html?id=4" },
+    "未央": { pos: "定位 前排", identity: "儀禮先生", story: "知書達禮，家教極好的大家閨秀。為人低調，精通美妝儀容術，似乎對宮廷禮儀很熟悉。", link: "https://www.flower-ariel.com/role_detail.html?id=4" },
     "雲無羈": { pos: "單體 後排", identity: "璇璣涯送行者", story: "「　璇璣崖上，往來送行　」 璇璣涯送行者，背著數把知名武器，微笑的神情下隱著看不透的神祕氣息。", link: "https://www.flower-ariel.com/role_detail.html?id=10" },
     "步夜": { pos: "群體 前排", identity: "大理寺少卿", story: "「　心懷若谷，風禾盡起　」​溫和有禮的大理寺少卿，保持著彷彿什麼都知道的淺笑和能看透人心的目光，慣用敬語和謙辭​", link: "" },
     "謝行逸": { pos: "治療 後排", identity: "設計師", story: "「　成品永遠沒有構想中的完美，唉......　」​曾經的蒼陽織造局少公子，現為無心苑品牌背後的創始人，性格偏執慵懶 幼時病弱，在寵溺中長大", link: "" },
