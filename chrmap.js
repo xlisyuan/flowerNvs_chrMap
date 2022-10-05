@@ -5,7 +5,7 @@ var spriteUrls = {
     "chr": "https://i.imgur.com/bUvn3TT.png",
     "chr1": "https://i.imgur.com/XD8WrTZ.png",
     "chr2": "https://i.imgur.com/XN5w38i.png",
-    "chr3": "https://i.imgur.com/dnYlmlj.png",
+    "chr3": "https://i.imgur.com/Qh07CrR.png",
 };
 var targetPicSize = { main: 100, ur: 75, ssr: 60, sr: 55, r: 45 };
 var spritePos = {
